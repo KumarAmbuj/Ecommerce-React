@@ -1,0 +1,17 @@
+.discount{
+    position: absolute;
+    height:25px;
+    width:80px;
+    background-color: rgb(3,3,59);
+    color: white;
+    top:0px;
+    left:0px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+}

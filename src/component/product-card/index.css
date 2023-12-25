@@ -1,0 +1,72 @@
+.card{
+    height: 13rem;
+    width: 14rem;
+    border: 1px solid grey;
+    position: relative;
+    border-radius: 5px;
+    border-top-left-radius: 6px;
+}
+.discount{
+    position: absolute;
+    height:25px;
+    width:80px;
+    background-color: rgb(3,3,59);
+    color: white;
+    top:0px;
+    left:0px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+}
+.image{
+    height:60%;
+    width:80%;
+    margin: 4px auto;
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+.image img{
+   height: 80%;
+   width: 80%;
+   
+}
+.productNameQuantity{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.productName{
+    font-size: 17px;
+    font-weight: 550;
+    color: rgb(3,3,59);
+}
+.productQuantity{
+    margin-top: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(3,3,59);
+}
+.productPriceButton{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productPrice{
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 10px;
+    color: rgb(3,3,59);
+}
+.productButton{
+    margin-right: 15px;
+}

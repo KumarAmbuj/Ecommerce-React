@@ -1,0 +1,18 @@
+.searchBar{
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.searchBar input{
+    height:28px;
+    width:30%;
+    
+    border-radius: 10px;
+    padding-left:10px;
+    font-size: 15px;
+
+}
